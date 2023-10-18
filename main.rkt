@@ -2,7 +2,7 @@
 
 (define (function n)
   (if (<= n 0)
-      0
+      42
       (+ n (function (- n 1)))))
 
 (define (function-2 n)
